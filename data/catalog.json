@@ -1,0 +1,54 @@
+{
+  "_note": "Mock catalog for local runs (STORE_MODE=mock). Illustrative products, not real listings.",
+  "currency": "USD",
+  "products": [
+    {
+      "id": "gid://mock/Product/1",
+      "handle": "brake-pads-ceramic-front",
+      "title": "Ceramic Front Brake Pads (Front Axle Set)",
+      "description": "Low-dust ceramic front brake pads with shims and hardware. Axle set, both sides. Fits Honda Civic 2016-2021, all trims except Type R.",
+      "tags": ["brakes", "pads", "ceramic", "front", "honda", "civic"],
+      "variants": [{ "id": "gid://mock/ProductVariant/101", "title": "Front axle set", "price": 5499, "available": true }]
+    },
+    {
+      "id": "gid://mock/Product/2",
+      "handle": "brake-rotors-front-pair",
+      "title": "Front Brake Rotors, Vented (Pair)",
+      "description": "Coated vented front brake rotors, sold as a pair. 282 mm diameter. Fits Honda Civic 2016-2021, all trims except Type R.",
+      "tags": ["brakes", "rotors", "front", "honda", "civic"],
+      "variants": [{ "id": "gid://mock/ProductVariant/201", "title": "Pair", "price": 8999, "available": true }]
+    },
+    {
+      "id": "gid://mock/Product/3",
+      "handle": "oil-filter-cartridge",
+      "title": "Engine Oil Filter",
+      "description": "Spin-on engine oil filter with a silicone anti-drainback valve. Fits Honda Civic 2016-2021 and Accord 2018-2022.",
+      "tags": ["engine", "oil", "filter", "maintenance", "honda"],
+      "variants": [{ "id": "gid://mock/ProductVariant/301", "title": "Single", "price": 999, "available": true }]
+    },
+    {
+      "id": "gid://mock/Product/4",
+      "handle": "full-synthetic-0w20-5qt",
+      "title": "Full Synthetic Motor Oil, SAE 0W-20 (5 Quart Jug)",
+      "description": "Full synthetic engine oil, SAE 0W-20, API SP. Sold as a 5 quart jug. Use the viscosity printed on your oil filler cap.",
+      "tags": ["engine", "oil", "synthetic", "maintenance"],
+      "variants": [{ "id": "gid://mock/ProductVariant/401", "title": "5 qt jug", "price": 2999, "available": true }]
+    },
+    {
+      "id": "gid://mock/Product/5",
+      "handle": "cabin-air-filter",
+      "title": "Cabin Air Filter, Activated Carbon",
+      "description": "Activated carbon cabin air filter for pollen and odors. Fits Honda Civic 2016-2021. Clips in behind the glovebox, no tools needed.",
+      "tags": ["cabin", "filter", "interior", "maintenance", "honda", "civic"],
+      "variants": [{ "id": "gid://mock/ProductVariant/501", "title": "Single", "price": 1899, "available": true }]
+    },
+    {
+      "id": "gid://mock/Product/6",
+      "handle": "wiper-blades-26-inch",
+      "title": "Beam Wiper Blades, 26 inch (Pair)",
+      "description": "All-season beam wiper blades, 26 inch, sold as a pair. Universal J-hook fitment.",
+      "tags": ["wipers", "visibility", "universal"],
+      "variants": [{ "id": "gid://mock/ProductVariant/601", "title": "Pair", "price": 2499, "available": false }]
+    }
+  ]
+}

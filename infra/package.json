@@ -1,0 +1,13 @@
+{
+  "name": "parts-agent-infra",
+  "private": true,
+  "description": "Pins the AWS CDK CLI to a version that reads aws-cdk-lib 2.273 cloud assemblies",
+  "scripts": {
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.1145.0"
+  }
+}

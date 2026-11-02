@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.agent/
+.pytest_cache/
+infra/cdk.out/
+evals/last_run*.json
+.DS_Store
+infra/node_modules/

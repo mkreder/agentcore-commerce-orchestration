@@ -1,0 +1,78 @@
+{
+  "_note": "ILLUSTRATIVE service data for the demo. NOT a service manual and NOT verified for any real vehicle. Replace every figure here with the values from the service information you license, reviewed by whoever signs off on your technical content. Torque figures, capacities, clearances and intervals are only ever quoted from this file.",
+  "specs": {
+    "brake-pads-ceramic-front": {
+      "keywords": ["brake pad", "brake pads", "ceramic pad", "front pads", "front brakes", "caliper", "bracket bolt", "guide pin", "lug nut"],
+      "part_type": "Front brake pads, ceramic, axle set",
+      "warnings": "Replace pads in axle sets, never one side only. Measure the rotors at the same time: new pads on a rotor below its discard thickness will not stop the car properly. Bed the pads in with six to eight moderate stops from highway-ramp speed before any hard braking.",
+      "outside_listed_years": "Not listed for that year. Confirm fitment before buying, and take the torque figures from the service manual for that vehicle.",
+      "fits": [{ "make": "Honda", "model": "Civic", "year_min": 2016, "year_max": 2021, "note": "all trims except Type R" }],
+      "bands": [
+        {
+          "year_min": 2016,
+          "year_max": 2021,
+          "spec": "Caliper bracket bolts 100 ft-lbs. Caliper guide pin bolts 25 ft-lbs. Wheel lug nuts 80 ft-lbs in a star pattern. Replace the pads once the friction material reaches 3 mm."
+        }
+      ]
+    },
+    "brake-rotors-front-pair": {
+      "keywords": ["rotor", "rotors", "brake disc", "brake discs", "lug nut", "runout", "discard thickness"],
+      "part_type": "Front brake rotors, vented, pair",
+      "warnings": "Measure both rotors before reusing them. A rotor below its discard thickness is scrap, not a candidate for resurfacing. Always replace rotors in pairs.",
+      "outside_listed_years": "Not listed for that year. Confirm fitment before buying, and take the thickness figures from the service manual for that vehicle.",
+      "fits": [{ "make": "Honda", "model": "Civic", "year_min": 2016, "year_max": 2021, "note": "all trims except Type R" }],
+      "bands": [
+        {
+          "year_min": 2016,
+          "year_max": 2021,
+          "spec": "New thickness 23 mm. Discard thickness 21.5 mm. Maximum runout 0.04 mm. Wheel lug nuts 80 ft-lbs in a star pattern."
+        }
+      ]
+    },
+    "oil-filter-cartridge": {
+      "keywords": ["oil filter", "filter gasket"],
+      "part_type": "Engine oil filter, spin-on",
+      "warnings": "Oil the new gasket before fitting and make sure the old gasket came off with the old filter. Two gaskets will leak.",
+      "outside_listed_years": "Not listed for that year. Confirm fitment before buying, and take the torque figure from the service manual for that vehicle.",
+      "fits": [
+        { "make": "Honda", "model": "Civic", "year_min": 2016, "year_max": 2021 },
+        { "make": "Honda", "model": "Accord", "year_min": 2018, "year_max": 2022 }
+      ],
+      "bands": [
+        {
+          "year_min": 2016,
+          "year_max": 2022,
+          "spec": "Tighten the filter to 18 ft-lbs once the gasket meets the seat. Oil and filter interval 7,500 miles or 12 months, whichever comes first."
+        }
+      ]
+    },
+    "full-synthetic-0w20-5qt": {
+      "keywords": ["0w-20", "0w20", "motor oil", "engine oil", "synthetic oil"],
+      "part_type": "Full synthetic engine oil, SAE 0W-20, API SP",
+      "warnings": "Use the viscosity printed on the oil filler cap. A thicker oil than the cap calls for can starve the variable valve timing on a cold start.",
+      "outside_listed_years": "No capacity on file for that year. Take the capacity from the service manual for that vehicle.",
+      "fits": [],
+      "bands": [
+        {
+          "year_min": 2016,
+          "year_max": 2021,
+          "spec": "Engine oil capacity with a new filter 3.7 quarts. Drain bolt 29 ft-lbs with a new crush washer."
+        }
+      ]
+    },
+    "cabin-air-filter": {
+      "keywords": ["cabin air filter", "cabin filter", "pollen filter"],
+      "part_type": "Cabin air filter, activated carbon",
+      "warnings": "Fit it with the airflow arrow pointing down, towards the floor of the car. Upside down it restricts the blower.",
+      "outside_listed_years": "Not listed for that year. Confirm fitment before buying.",
+      "fits": [{ "make": "Honda", "model": "Civic", "year_min": 2016, "year_max": 2021 }],
+      "bands": [
+        {
+          "year_min": 2016,
+          "year_max": 2021,
+          "spec": "Replacement interval 15,000 miles or 12 months. No torque figures: the housing behind the glovebox is clipped, not bolted."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[project]
+name = "parts-agent"
+version = "0.1.0"
+description = "Parts-counter agent + safety monitor for agentic commerce, on Amazon Bedrock AgentCore and Strands Agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT-0" }
+dependencies = [
+    "strands-harness>=0.2.0",
+    "bedrock-agentcore>=1.24.0",
+    "httpx>=0.27",
+    "pydantic>=2.7",
+]
+
+[project.optional-dependencies]
+deploy = ["aws-opentelemetry-distro>=0.10.1"]
+cdk = ["aws-cdk-lib>=2.273.0", "constructs>=10.0.0"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+ui = ["streamlit>=1.40"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/parts_agent"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

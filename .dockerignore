@@ -1,0 +1,10 @@
+.venv
+.git
+.agent
+infra
+tests
+evals
+**/__pycache__
+**/*.pyc
+.env
+ui
